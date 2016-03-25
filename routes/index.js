@@ -47,7 +47,7 @@ router.route('/next')
     }
     for (var prop in req.body) {
       if (req.body.hasOwnProperty(prop)) {
-        req.session.api[prop] = prop
+        req.session.api[prop] = req.body[prop]
       }
     }
     console.log('api:', req.session.api)

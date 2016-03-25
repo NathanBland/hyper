@@ -1,5 +1,5 @@
 # hyper
-a Api tooling service
+An Api tooling service
 
 ## About
 hyper aims to help you easily create backend API's for your application.
