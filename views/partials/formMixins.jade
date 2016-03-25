@@ -1,0 +1,21 @@
+mixin startForm
+  form(method='post', action='/next')
+    .form-group
+      label(for='projectName') Project Name
+      .input-group
+        input#projectName.form-control(type='text', name='title' placeholder='better-chat-api')
+    button.btn.btn-primary(type='submit') Get started
+    
+mixin authForm
+  form(method='post', action='/next')
+    .form-group
+      .radio
+        label
+          input#optionsRadios1(type='radio', name='auth', value='yes', checked='')
+          | Yes
+      .radio
+        label
+          input#optionsRadios2(type='radio', name='auth', value='no')
+          | No
+
+    button.btn.btn-primary(type='submit') Next

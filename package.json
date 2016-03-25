@@ -1,0 +1,37 @@
+{
+  "name": "hyper",
+  "version": "0.0.1",
+  "description": "An express api tooling service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo 'Staring server..' && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanBland/hyper.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "service"
+  ],
+  "author": "Nathan Bland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanBland/hyper/issues"
+  },
+  "homepage": "https://github.com/NathanBland/hyper#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.10",
+    "node-sass-middleware": "^0.9.7",
+    "serve-favicon": "^2.3.0"
+  }
+}
